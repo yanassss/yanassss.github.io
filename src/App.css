@@ -19,7 +19,7 @@
 
 /* background color of navbar */
 .nav-bar {
-  background-color: #000;
+  background-color: #61dafb;
 }
 
 /* Color of page links in navbar */
@@ -30,4 +30,9 @@
 .nav-bar-title {
   color: #fff;
   padding-left: 10px;
+  text-align: center;
+}
+
+.main-header {
+  text-align: center;
 }

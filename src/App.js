@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Container, Navbar, Nav, NavbarBrand } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavbarBrand, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -70,9 +70,9 @@ class App extends React.Component {
             <Navbar.Brand>
               <div className="nav-bar-title">Yana</div>
             </Navbar.Brand>
-
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" />
+
             <Nav className="ml-auto">
               <Link className="nav-link" to="/">
                 Home

@@ -5,11 +5,9 @@ import '../styling/Components.css';
 
 function Footer() {
   return (
-    <footer className="mt-5">
+    <footer className="mt-0">
       <Container fluid={true}>
-        <Row className="border-top justify-content-center p-2 border">
-          © 2019-2021
-        </Row>
+        <Row className="justify-content-center p-2 footer">© 2019-2021</Row>
       </Container>
     </footer>
   );
