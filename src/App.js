@@ -64,114 +64,115 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <Container className="p-0 nav-bar" fluid={true}>
-          <Navbar className="" /*"border-bottom"*/ bg="transparent">
-            <Navbar.Brand>
-              <div className="nav-bar-title">Yana</div>
-            </Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle" />
+      <p> hello </p>
+      // <Router>
+      //   <Container className="p-0 nav-bar" fluid={true}>
+      //     <Navbar className="" /*"border-bottom"*/ bg="transparent">
+      //       <Navbar.Brand>
+      //         <div className="nav-bar-title">Yana</div>
+      //       </Navbar.Brand>
+      //       <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+      //       <Navbar.Collapse id="navbar-toggle" />
 
-            <Nav className="ml-auto">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-              <Link className="nav-link" to="/architecture">
-                Architecture
-              </Link>
-              <Link className="nav-link" to="/environment">
-                Environment
-              </Link>
-              <Link className="nav-link" to="/portraits">
-                Portraits
-              </Link>
-              <Link className="nav-link" to="/wildlife">
-                Wildlife
-              </Link>
-              <Link className="nav-link" to="/film">
-                Film
-              </Link>
-              <Link className="nav-link" to="/other">
-                Other
-              </Link>
-              <Link className="nav-link" to="/about">
-                About
-              </Link>
-              <Link className="nav-link" to="/contact">
-                Contact
-              </Link>
-            </Nav>
-          </Navbar>
+      //       <Nav className="ml-auto">
+      //         <Link className="nav-link" to="/">
+      //           Home
+      //         </Link>
+      //         <Link className="nav-link" to="/architecture">
+      //           Architecture
+      //         </Link>
+      //         <Link className="nav-link" to="/environment">
+      //           Environment
+      //         </Link>
+      //         <Link className="nav-link" to="/portraits">
+      //           Portraits
+      //         </Link>
+      //         <Link className="nav-link" to="/wildlife">
+      //           Wildlife
+      //         </Link>
+      //         <Link className="nav-link" to="/film">
+      //           Film
+      //         </Link>
+      //         <Link className="nav-link" to="/other">
+      //           Other
+      //         </Link>
+      //         <Link className="nav-link" to="/about">
+      //           About
+      //         </Link>
+      //         <Link className="nav-link" to="/contact">
+      //           Contact
+      //         </Link>
+      //       </Nav>
+      //     </Navbar>
 
-          {/* Home Page Route  */}
-          <Route
-            path="/"
-            exact
-            render={() => (
-              <HomePage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                text={this.state.home.text}
-              />
-            )}
-          />
+      //     {/* Home Page Route  */}
+      //     <Route
+      //       path="/"
+      //       exact
+      //       render={() => (
+      //         <HomePage
+      //           title={this.state.home.title}
+      //           subTitle={this.state.home.subTitle}
+      //           text={this.state.home.text}
+      //         />
+      //       )}
+      //     />
 
-          {/* About Page Route */}
-          <Route
-            path="/about"
-            render={() => <AboutPage title={this.state.about.title} />}
-          />
+      //     {/* About Page Route */}
+      //     <Route
+      //       path="/about"
+      //       render={() => <AboutPage title={this.state.about.title} />}
+      //     />
 
-          {/* Architecture Page Route */}
-          <Route
-            path="/architecture"
-            render={() => (
-              <ArchitecturePage title={this.state.architecture.title} />
-            )}
-          />
+      //     {/* Architecture Page Route */}
+      //     <Route
+      //       path="/architecture"
+      //       render={() => (
+      //         <ArchitecturePage title={this.state.architecture.title} />
+      //       )}
+      //     />
 
-          {/* Contact Page Route */}
-          <Route
-            path="/contact"
-            render={() => <ContactPage title={this.state.contact.title} />}
-          />
+      //     {/* Contact Page Route */}
+      //     <Route
+      //       path="/contact"
+      //       render={() => <ContactPage title={this.state.contact.title} />}
+      //     />
 
-          {/* Environment Page Route */}
-          <Route
-            path="/environment"
-            render={() => (
-              <EnvironmentPage title={this.state.environment.title} />
-            )}
-          />
+      //     {/* Environment Page Route */}
+      //     <Route
+      //       path="/environment"
+      //       render={() => (
+      //         <EnvironmentPage title={this.state.environment.title} />
+      //       )}
+      //     />
 
-          {/* Film Page Route */}
-          <Route
-            path="/film"
-            render={() => <FilmPage title={this.state.film.title} />}
-          />
+      //     {/* Film Page Route */}
+      //     <Route
+      //       path="/film"
+      //       render={() => <FilmPage title={this.state.film.title} />}
+      //     />
 
-          {/* Other Page Route */}
-          <Route
-            path="/other"
-            render={() => <OtherPage title={this.state.other.title} />}
-          />
+      //     {/* Other Page Route */}
+      //     <Route
+      //       path="/other"
+      //       render={() => <OtherPage title={this.state.other.title} />}
+      //     />
 
-          {/* Portraits Page Route */}
-          <Route
-            path="/portraits"
-            render={() => <PortraitsPage title={this.state.Portraits.title} />}
-          />
+      //     {/* Portraits Page Route */}
+      //     <Route
+      //       path="/portraits"
+      //       render={() => <PortraitsPage title={this.state.Portraits.title} />}
+      //     />
 
-          {/* Wildlife Page Route */}
-          <Route
-            path="/wildlife"
-            render={() => <WildlifePage title={this.state.wildlife.title} />}
-          />
+      //     {/* Wildlife Page Route */}
+      //     <Route
+      //       path="/wildlife"
+      //       render={() => <WildlifePage title={this.state.wildlife.title} />}
+      //     />
 
-          <Footer />
-        </Container>
-      </Router>
+      //     <Footer />
+      //   </Container>
+      // </Router>
     );
   }
 }
