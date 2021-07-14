@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* background color of navbar */
+.nav-bar {
+  background-color: #000;
+}
+
+/* Color of page links in navbar */
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-bar-title {
+  color: #fff;
+  padding-left: 10px;
+}

@@ -1,0 +1,36 @@
+.title {
+  color: #fff;
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+}
+
+.background-color {
+  background-color: #000;
+  color: #fff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.error-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}
+
+.form-title {
+  color: #fff;
+}
+
+.submit-button {
+  padding-top: 10px;
+}
